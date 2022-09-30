@@ -1,6 +1,6 @@
 Source,/home/pozsarzs/Git/mini_serial_console-hw/cad_files/mini-serial-console.sch
 Kicad Rev,Eeschema 4.0.5+dfsg1-4+deb9u1
-Generated Date,2022. szept. 29., csütörtök, 20:39:24 CEST
+Generated Date,2022. szept. 30., péntek, 10:23:01 CEST
 
 Title,Mini serial console
 Company,Pozsar Zsolt
@@ -8,17 +8,16 @@ Revision,1.0
 Date Issue,2022-09-28
 
 Reference,Value,Function,Voltage,Library,Library Ref
-Q2,BC548,transistors,BC548
-Q1,BC559,transistors,BC559
+Q3,BC548,transistors,BC548
+Q2,BC559,transistors,BC559
 D2,1N4148,device,D
-R3,10k,device,R
-R4,10k,device,R
-R9,4.7k,device,R
-R6,4.7k,device,R
+R5,10k,device,R
+R6,10k,device,R
+R15,4.7k,device,R
+R14,4.7k,device,R
 C5,100n,device,C
-J3,DB9M,RS232C serial port,,conn,DB9
-R2,10k,device,R
-R5,4.7k,device,R
+R4,10k,device,R
+R7,4.7k,device,R
 U1,HD44780 compatible LCD,mini-serial-console-cache,HD44780_compatible
 U2,Pico,MCU_RaspberryPi_and_Boards,Pico
 J1,Screw_Terminal_1x02,+5V DC input,,conn,Screw_Terminal_1x02
@@ -29,19 +28,18 @@ C1,1000u,,10V,device,CP
 C2,100n,device,C
 C3,100n,device,C
 C4,100n,device,C
-JP3,Jumper_NC_Small,device,Jumper_NC_Small
-JP1,Jumper_NO_Small,TTL serial port,,device,Jumper_NO_Small
-JP4,Jumper_NC_Small,RS232C serial port,,device,Jumper_NC_Small
-JP2,Jumper_NO_Small,device,Jumper_NO_Small
-JP5,Jumper_NO_Small,Reset,,device,Jumper_NO_Small
-R1,560,device,R
-P1,10k,Contrast,,device,POT_TRIM
-R12,10k,device,R
-R10,10k,device,R
-JP6,Jumper_NO_Small,Autoscroll,,device,Jumper_NO_Small
+JP1,Jumper_NO_Small,Reset,,device,Jumper_NO_Small
+JP2,Jumper_NO_Small,Autoscroll,,device,Jumper_NO_Small
 R8,10k,device,R
-R7,10k,device,R
+R9,10k,device,R
+JP3,Jumper_NO_Small,Line break,,device,Jumper_NO_Small
 J4,Screw_Terminal_1x05,Push buttons,,conn,Screw_Terminal_1x05
-R13,10k,device,R
+R10,10k,device,R
 R11,10k,device,R
-JP7,Jumper_NO_Small,Line break,,device,Jumper_NO_Small
+R12,10k,device,R
+R13,10k,device,R
+R1,560,device,R
+Q1,BC109,transistors,BC548
+R3,1k,device,R
+J3,Screw_Terminal_1x03,RS232C serial port,,conn,Screw_Terminal_1x03
+R2,10k,device,R
