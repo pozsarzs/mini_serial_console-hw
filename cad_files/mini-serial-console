@@ -1,45 +1,55 @@
 Source,/home/pozsarzs/Git/mini_serial_console-hw/cad_files/mini-serial-console.sch
 Kicad Rev,Eeschema 4.0.5+dfsg1-4+deb9u1
-Generated Date,2022. szept. 30., péntek, 10:23:01 CEST
+Generated Date,2022. szept. 30., péntek, 21:11:22 CEST
 
 Title,Mini serial console
 Company,Pozsar Zsolt
 Revision,1.0
-Date Issue,2022-09-28
+Date Issue,2022-09-30
 
 Reference,Value,Function,Voltage,Library,Library Ref
-Q3,BC548,transistors,BC548
-Q2,BC559,transistors,BC559
+Q2,BC548,transistors,BC548
+Q1,BC559,transistors,BC559
 D2,1N4148,device,D
-R5,10k,device,R
 R6,10k,device,R
-R15,4.7k,device,R
-R14,4.7k,device,R
-C5,100n,device,C
-R4,10k,device,R
-R7,4.7k,device,R
+R5,10k,device,R
+R4,4.7k,device,R
+R2,4.7k,device,R
+C3,100n,device,C
+R3,10k,device,R
+R1,4.7k,device,R
 U1,HD44780 compatible LCD,mini-serial-console-cache,HD44780_compatible
-U2,Pico,MCU_RaspberryPi_and_Boards,Pico
+U2,Raspberry Pi Pico,MCU_RaspberryPi_and_Boards,Pico
 J1,Screw_Terminal_1x02,+5V DC input,,conn,Screw_Terminal_1x02
 J2,Screw_Terminal_1x03,TTL serial port,,conn,Screw_Terminal_1x03
 D1,1N4001,device,D
-F1,Fuse,device,Fuse
+F1,1A F,device,Fuse
 C1,1000u,,10V,device,CP
 C2,100n,device,C
-C3,100n,device,C
 C4,100n,device,C
+C5,100n,device,C
 JP1,Jumper_NO_Small,Reset,,device,Jumper_NO_Small
 JP2,Jumper_NO_Small,Autoscroll,,device,Jumper_NO_Small
-R8,10k,device,R
-R9,10k,device,R
+R19,10k,device,R
+R18,10k,device,R
 JP3,Jumper_NO_Small,Line break,,device,Jumper_NO_Small
-J4,Screw_Terminal_1x05,Push buttons,,conn,Screw_Terminal_1x05
-R10,10k,device,R
-R11,10k,device,R
-R12,10k,device,R
-R13,10k,device,R
-R1,560,device,R
-Q1,BC109,transistors,BC548
-R3,1k,device,R
+R20,10k,device,R
+R21,10k,device,R
+R22,10k,device,R
+R23,10k,device,R
+R8,560,device,R
+Q3,BC109,transistors,BC548
+R17,1k,device,R
 J3,Screw_Terminal_1x03,RS232C serial port,,conn,Screw_Terminal_1x03
-R2,10k,device,R
+R7,10k,device,R
+J4,Screw_Terminal_1x07,Push buttons,,conn,Screw_Terminal_1x07
+R24,10k,device,R
+R25,10k,device,R
+R9,1k,device,R
+R10,1k,device,R
+R11,1k,device,R
+R12,1k,device,R
+R13,1k,device,R
+R14,1k,device,R
+R15,1k,device,R
+R16,1k,device,R
