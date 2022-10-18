@@ -851,13 +851,13 @@ $Comp
 L Jumper_NO_Small JP1
 U 1 1 63359C97
 P 7850 4600
-F 0 "JP1" H 7850 4675 50  0000 C CNN
+F 0 "JP1" H 7850 4500 50  0000 C CNN
 F 1 "Jumper_NO_Small" H 7860 4540 50  0001 C CNN
 F 2 "Socket_Strips:Socket_Strip_Straight_1x02" H 7850 4600 50  0001 C CNN
 F 3 "" H 7850 4600 50  0000 C CNN
-F 4 "Reset" H 7850 4525 60  0000 C CNN "Function"
+F 4 "Reset" H 7850 4700 60  0000 C CNN "Function"
 	1    7850 4600
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	9600 4250 8150 4250
@@ -1001,7 +1001,7 @@ F 0 "JP3" H 8455 6005 50  0000 C CNN
 F 1 "Jumper_NO_Small" H 8310 5890 50  0001 C CNN
 F 2 "Socket_Strips:Socket_Strip_Straight_1x02" H 8300 5950 50  0001 C CNN
 F 3 "" H 8300 5950 50  0000 C CNN
-F 4 "Line break" H 8300 6130 60  0000 C CNN "Function"
+F 4 "modes" H 8300 6130 60  0000 C CNN "Function"
 	1    8300 5950
 	1    0    0    1   
 $EndComp
@@ -1013,7 +1013,7 @@ F 0 "JP2" H 8460 5900 50  0000 C CNN
 F 1 "Jumper_NO_Small" H 8310 5790 50  0001 C CNN
 F 2 "Socket_Strips:Socket_Strip_Straight_1x02" H 8300 5850 50  0001 C CNN
 F 3 "" H 8300 5850 50  0000 C CNN
-F 4 "Autoscroll" H 8300 5760 60  0000 C CNN "Function"
+F 4 "Operation" H 8300 5760 60  0000 C CNN "Function"
 	1    8300 5850
 	1    0    0    1   
 $EndComp
