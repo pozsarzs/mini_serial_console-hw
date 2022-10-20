@@ -1,0 +1,403 @@
+Cmp-Mod V01 Created by PcbNew   date = 2022. okt. 19., szerda, 21:44:17 CEST
+
+BeginCmp
+TimeStamp = 635021E7
+Path = 
+Reference = MH5;
+ValeurCmp = MountingHole_3.5mm;
+IdModule  = Mounting_Holes:MountingHole_3.5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 6334A08E
+Path = /62E3E96B
+Reference = U2;
+ValeurCmp = Raspberry Pi Pico;
+IdModule  = MCU_RaspberryPi_and_Boards:RPi_Pico_SMD_TH;
+EndCmp
+
+BeginCmp
+TimeStamp = 63373E31
+Path = /633624CF
+Reference = R8;
+ValeurCmp = 560;
+IdModule  = Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 6336B0A1
+Path = /6336D248
+Reference = J3;
+ValeurCmp = Screw_Terminal_1x03;
+IdModule  = Connectors:bornier3;
+EndCmp
+
+BeginCmp
+TimeStamp = 634DAD48
+Path = 
+Reference = MH3;
+ValeurCmp = MountingHole_3.5mm;
+IdModule  = Mounting_Holes:MountingHole_3.5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 634DAD42
+Path = 
+Reference = MH2;
+ValeurCmp = MountingHole_3.5mm;
+IdModule  = Mounting_Holes:MountingHole_3.5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 634DAD24
+Path = 
+Reference = MH1;
+ValeurCmp = MountingHole_3.5mm;
+IdModule  = Mounting_Holes:MountingHole_3.5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 633493CF
+Path = 
+Reference = MH4;
+ValeurCmp = MountingHole_3.5mm;
+IdModule  = Mounting_Holes:MountingHole_3.5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 633495A6
+Path = /62E1218C
+Reference = U1;
+ValeurCmp = HD44780 compatible LCD;
+IdModule  = Socket_Strips:Socket_Strip_Straight_1x16;
+EndCmp
+
+BeginCmp
+TimeStamp = 6335EA53
+Path = /6334D43E
+Reference = C1;
+ValeurCmp = 1000u;
+IdModule  = Capacitors_THT:CP_Radial_D10.0mm_P5.00mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 6335EA68
+Path = /6334D4A4
+Reference = C2;
+ValeurCmp = 100n;
+IdModule  = Capacitors_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 6335EA7D
+Path = /62DFDB11
+Reference = C3;
+ValeurCmp = 100n;
+IdModule  = Capacitors_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 6335EA92
+Path = /6334D503
+Reference = C4;
+ValeurCmp = 100n;
+IdModule  = Capacitors_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 6335EAA7
+Path = /6334D558
+Reference = C5;
+ValeurCmp = 100n;
+IdModule  = Capacitors_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 6335EAC0
+Path = /6334D299
+Reference = D1;
+ValeurCmp = 1N4001;
+IdModule  = Diodes_THT:D_DO-41_SOD81_P10.16mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 6335EAD9
+Path = /62DFD80C
+Reference = D2;
+ValeurCmp = 1N4148;
+IdModule  = Diodes_THT:D_DO-41_SOD81_P7.62mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 6335EAF0
+Path = /6334D3D7
+Reference = F1;
+ValeurCmp = 1A F;
+IdModule  = Fuse_holders:Fuseholder5x20_simple_metal;
+EndCmp
+
+BeginCmp
+TimeStamp = 6335EB04
+Path = /6334B326
+Reference = J1;
+ValeurCmp = Screw_Terminal_1x02;
+IdModule  = Connectors:bornier2;
+EndCmp
+
+BeginCmp
+TimeStamp = 6335EB19
+Path = /6334CCEA
+Reference = J2;
+ValeurCmp = Screw_Terminal_1x03;
+IdModule  = Connectors:bornier3;
+EndCmp
+
+BeginCmp
+TimeStamp = 6335ECD6
+Path = /63359C97
+Reference = JP1;
+ValeurCmp = Jumper_NO_Small;
+IdModule  = Socket_Strips:Socket_Strip_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = 6335ECE7
+Path = /6336AF62
+Reference = JP2;
+ValeurCmp = Jumper_NO_Small;
+IdModule  = Socket_Strips:Socket_Strip_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = 6335ECF8
+Path = /633591A1
+Reference = JP3;
+ValeurCmp = Jumper_NO_Small;
+IdModule  = Socket_Strips:Socket_Strip_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = 633743F9
+Path = /633730D8
+Reference = J4;
+ValeurCmp = Screw_Terminal_1x07;
+IdModule  = Bornier:bornier7;
+EndCmp
+
+BeginCmp
+TimeStamp = 63373DCF
+Path = /62DFF05A
+Reference = R1;
+ValeurCmp = 4.7k;
+IdModule  = Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 63373DDD
+Path = /62DFDA67
+Reference = R2;
+ValeurCmp = 4.7k;
+IdModule  = Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 63373DEB
+Path = /62DFEEFC
+Reference = R3;
+ValeurCmp = 10k;
+IdModule  = Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 63373DF9
+Path = /62DFDA61
+Reference = R4;
+ValeurCmp = 4.7k;
+IdModule  = Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 63373E07
+Path = /62DFD950
+Reference = R5;
+ValeurCmp = 10k;
+IdModule  = Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 63373E15
+Path = /62DFD911
+Reference = R6;
+ValeurCmp = 10k;
+IdModule  = Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 63373E23
+Path = /6336E0EE
+Reference = R7;
+ValeurCmp = 10k;
+IdModule  = Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 63373E3F
+Path = /6336C136
+Reference = R17;
+ValeurCmp = 1k;
+IdModule  = Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 633741CF
+Path = /62DFD772
+Reference = Q1;
+ValeurCmp = BC559;
+IdModule  = TO_SOT_Packages_THT:TO-92_Inline_Narrow_Oval;
+EndCmp
+
+BeginCmp
+TimeStamp = 633741DD
+Path = /62DFD745
+Reference = Q2;
+ValeurCmp = BC548;
+IdModule  = TO_SOT_Packages_THT:TO-92_Inline_Narrow_Oval;
+EndCmp
+
+BeginCmp
+TimeStamp = 633741F2
+Path = /6336B096
+Reference = Q3;
+ValeurCmp = BC109;
+IdModule  = TO_SOT_Packages_THT:TO-18-3;
+EndCmp
+
+BeginCmp
+TimeStamp = 63374AB0
+Path = /6337CB04
+Reference = R9;
+ValeurCmp = 1k;
+IdModule  = Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 63374ABE
+Path = /6337D127
+Reference = R10;
+ValeurCmp = 1k;
+IdModule  = Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 63374ACC
+Path = /6337D1B4
+Reference = R11;
+ValeurCmp = 1k;
+IdModule  = Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 6337539A
+Path = /6337D23C
+Reference = R12;
+ValeurCmp = 1k;
+IdModule  = Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 633753A8
+Path = /6337D2C7
+Reference = R13;
+ValeurCmp = 1k;
+IdModule  = Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 633753B6
+Path = /6337D355
+Reference = R14;
+ValeurCmp = 1k;
+IdModule  = Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 633753C4
+Path = /6337D3EC
+Reference = R15;
+ValeurCmp = 1k;
+IdModule  = Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 633753D2
+Path = /6337DE00
+Reference = R16;
+ValeurCmp = 1k;
+IdModule  = Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 63375AC3
+Path = /63356FF1
+Reference = R18;
+ValeurCmp = 10k;
+IdModule  = Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 63375AD1
+Path = /63356FDE
+Reference = R19;
+ValeurCmp = 10k;
+IdModule  = Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 63375ADF
+Path = /63354AD8
+Reference = R20;
+ValeurCmp = 10k;
+IdModule  = Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 63376449
+Path = /63354AD2
+Reference = R21;
+ValeurCmp = 10k;
+IdModule  = Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 63376457
+Path = /633680FD
+Reference = R22;
+ValeurCmp = 10k;
+IdModule  = Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 63376465
+Path = /63366A0E
+Reference = R23;
+ValeurCmp = 10k;
+IdModule  = Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 63376473
+Path = /633736D1
+Reference = R24;
+ValeurCmp = 10k;
+IdModule  = Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 63376481
+Path = /63373754
+Reference = R25;
+ValeurCmp = 10k;
+IdModule  = Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical;
+EndCmp
+
+EndListe
