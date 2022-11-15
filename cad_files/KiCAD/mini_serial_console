@@ -1,13 +1,13 @@
 Source,/home/pozsarzs/Git/mini_serial_console-hw/cad_files/KiCAD/mini_serial_console.sch
 Kicad Rev,Eeschema 4.0.5+dfsg1-4+deb9u1
-Generated Date,2022. okt. 19., szerda, 20:45:00 CEST
+Generated Date,2022. nov. 15., kedd, 17:02:40 CET
 
 Title,Mini serial console
 Company,Pozsar Zsolt
 Revision,1.0
 Date Issue,2022-09-30
 Comment,http://www.pozsarzs.hu
-Comment,Drawing number: 59/22/02
+Comment,DN: 59/22/02
 
 Reference,Value,Function,Voltage,Library,Library Ref
 Q2,BC548,transistors,BC548
@@ -20,7 +20,7 @@ R2,4.7k,device,R
 C3,100n,device,C
 R3,10k,device,R
 R1,4.7k,device,R
-U1,HD44780 compatible LCD,mini-serial-console-cache,HD44780_compatible
+U1,HD44780 compatible LCD,mini_serial_console-cache,HD44780_compatible
 U2,Raspberry Pi Pico,MCU_RaspberryPi_and_Boards,Pico
 J1,Screw_Terminal_1x02,+5V DC input,,conn,Screw_Terminal_1x02
 J2,Screw_Terminal_1x03,TTL serial port,,conn,Screw_Terminal_1x03
@@ -35,7 +35,7 @@ Q3,BC109,transistors,BC548
 R17,1k,device,R
 J3,Screw_Terminal_1x03,RS232C serial port,,conn,Screw_Terminal_1x03
 R7,10k,device,R
-J4,Screw_Terminal_1x07,Push buttons,,conn,Screw_Terminal_1x07
+J4,Screw_Terminal_1x07,pushbuttons,,conn,Screw_Terminal_1x07
 JP1,Jumper_NO_Small,Reset,,device,Jumper_NO_Small
 R9,1k,device,R
 R10,1k,device,R
