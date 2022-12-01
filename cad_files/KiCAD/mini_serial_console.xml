@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>/home/pozsarzs/Git/mini_serial_console-hw/cad_files/KiCAD/mini_serial_console.sch</source>
-    <date>2022. nov. 15., kedd, 17:02:40 CET</date>
+    <source>/home/pozsarzs/Desktop/msc-hw/cad_files/KiCAD/mini_serial_console.sch</source>
+    <date>2022. dec.  1., csütörtök, 17:19:56 CET</date>
     <tool>Eeschema 4.0.5+dfsg1-4+deb9u1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -131,7 +131,7 @@
       <tstamp>6334D299</tstamp>
     </comp>
     <comp ref="F1">
-      <value>1A F</value>
+      <value>100mA F</value>
       <footprint>Fuse_holders:Fuseholder5x20_simple_metal</footprint>
       <libsource lib="device" part="Fuse"/>
       <sheetpath names="/" tstamps="/"/>
@@ -632,9 +632,6 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="MCU_RaspberryPi_and_Boards">
-      <uri>/home/pozsarzs/Git/mini_serial_console-hw/cad_files/KiCAD/MCU_RaspberryPi_and_Boards.lib</uri>
-    </library>
     <library logical="device">
       <uri>/usr/share/kicad/library/device.lib</uri>
     </library>
@@ -644,8 +641,11 @@
     <library logical="transistors">
       <uri>/usr/share/kicad/library/transistors.lib</uri>
     </library>
+    <library logical="MCU_RaspberryPi_and_Boards">
+      <uri>/home/pozsarzs/Desktop/msc-hw/cad_files/KiCAD/MCU_RaspberryPi_and_Boards.lib</uri>
+    </library>
     <library logical="mini_serial_console-cache">
-      <uri>/home/pozsarzs/Git/mini_serial_console-hw/cad_files/KiCAD/mini_serial_console-cache.lib</uri>
+      <uri>/home/pozsarzs/Desktop/msc-hw/cad_files/KiCAD/mini_serial_console-cache.lib</uri>
     </library>
   </libraries>
   <nets>

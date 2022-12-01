@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source /home/pozsarzs/Git/mini_serial_console-hw/cad_files/KiCAD/mini_serial_console.sch)
-    (date "2022. nov. 15., kedd, 17:02:34 CET")
+    (source /home/pozsarzs/Desktop/msc-hw/cad_files/KiCAD/mini_serial_console.sch)
+    (date "2022. dec.  1., csütörtök, 17:19:09 CET")
     (tool "Eeschema 4.0.5+dfsg1-4+deb9u1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -110,7 +110,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 6334D299))
     (comp (ref F1)
-      (value "1A F")
+      (value "100mA F")
       (footprint Fuse_holders:Fuseholder5x20_simple_metal)
       (libsource (lib device) (part Fuse))
       (sheetpath (names /) (tstamps /))
@@ -522,16 +522,16 @@
         (pin (num 6) (name ~) (type passive))
         (pin (num 7) (name ~) (type passive)))))
   (libraries
-    (library (logical MCU_RaspberryPi_and_Boards)
-      (uri /home/pozsarzs/Git/mini_serial_console-hw/cad_files/KiCAD/MCU_RaspberryPi_and_Boards.lib))
     (library (logical device)
       (uri /usr/share/kicad/library/device.lib))
     (library (logical conn)
       (uri /usr/share/kicad/library/conn.lib))
     (library (logical transistors)
       (uri /usr/share/kicad/library/transistors.lib))
+    (library (logical MCU_RaspberryPi_and_Boards)
+      (uri /home/pozsarzs/Desktop/msc-hw/cad_files/KiCAD/MCU_RaspberryPi_and_Boards.lib))
     (library (logical mini_serial_console-cache)
-      (uri /home/pozsarzs/Git/mini_serial_console-hw/cad_files/KiCAD/mini_serial_console-cache.lib)))
+      (uri /home/pozsarzs/Desktop/msc-hw/cad_files/KiCAD/mini_serial_console-cache.lib)))
   (nets
     (net (code 1) (name /RXD0)
       (node (ref J2) (pin 2))

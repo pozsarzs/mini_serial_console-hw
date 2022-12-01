@@ -1,6 +1,6 @@
-Source,/home/pozsarzs/Git/mini_serial_console-hw/cad_files/KiCAD/mini_serial_console.sch
+Source,/home/pozsarzs/Desktop/msc-hw/cad_files/KiCAD/mini_serial_console.sch
 Kicad Rev,Eeschema 4.0.5+dfsg1-4+deb9u1
-Generated Date,2022. nov. 15., kedd, 17:02:40 CET
+Generated Date,2022. dec.  1., csütörtök, 17:19:56 CET
 
 Title,Mini serial console
 Company,Pozsar Zsolt
@@ -25,7 +25,7 @@ U2,Raspberry Pi Pico,MCU_RaspberryPi_and_Boards,Pico
 J1,Screw_Terminal_1x02,+5V DC input,,conn,Screw_Terminal_1x02
 J2,Screw_Terminal_1x03,TTL serial port,,conn,Screw_Terminal_1x03
 D1,1N4001,device,D
-F1,1A F,device,Fuse
+F1,100mA F,device,Fuse
 C1,1000u,,10V,device,CP
 C2,100n,device,C
 C4,100n,device,C
